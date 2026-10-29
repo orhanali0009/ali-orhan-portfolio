@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowUpRight, ArrowRight, Github, Linkedin, Mail, Database, ChartNoAxesCombined, BrainCircuit, Menu, X } from 'lucide-react';
+import { ArrowUpRight, ArrowRight, Github, Linkedin, Database, ChartNoAxesCombined, BrainCircuit, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import Brand from './components/Brand';
 import SignalArtwork from './components/SignalArtwork';
@@ -43,7 +43,7 @@ export default function Home() {
 
       <section className="section writing-section" id="writing"><div className="wrap"><div className="section-head"><div><div className="section-kicker">03 / INSIGHTS & JOURNAL</div><h2>Ideas worth <em className="editorial-em">exploring.</em></h2></div><a className="button-secondary" href="/insights">Explore the journal ↗</a></div><p className="journal-intro">Thoughts on data, intelligence, finance, and the technologies shaping our world.</p><p className="editorial-note">Research insights and works in progress. Entries marked Draft are outlines awaiting completion.</p><InsightCards/></div></section>
 
-      <section className="contact-section wrap" id="contact"><div className="section-kicker">04 / GET IN TOUCH</div><h2>Let’s build something<br/><em>meaningful.</em></h2><p>Interested in data, technology, or a potential collaboration? I’d love to connect.</p><div className="contact-links"><a href="https://github.com/orhanali0009?tab=repositories" target="_blank" rel="noopener noreferrer"><Github size={18}/> GitHub <ArrowUpRight size={15}/></a><a href="https://www.linkedin.com/in/aliorhann/" target="_blank" rel="noopener noreferrer"><Linkedin size={18}/> LinkedIn <ArrowUpRight size={15}/></a><a href="mailto:YOUR_EMAIL@example.com"><Mail size={18}/> Email <ArrowUpRight size={15}/></a></div><p className="contact-note">Update the placeholder email link before publishing.</p></section>
+      <section className="contact-section wrap" id="contact"><div className="section-kicker">04 / GET IN TOUCH</div><h2>Let’s build something<br/><em>meaningful.</em></h2><p>Interested in data, technology, or a potential collaboration? I’d love to connect.</p><div className="contact-links"><a href="https://github.com/orhanali0009?tab=repositories" target="_blank" rel="noopener noreferrer"><Github size={18}/> GitHub <ArrowUpRight size={15}/></a><a href="https://www.linkedin.com/in/aliorhann/" target="_blank" rel="noopener noreferrer"><Linkedin size={18}/> LinkedIn <ArrowUpRight size={15}/></a><a href="mailto:a.orhan2021@gtu.edu.tr">a.orhan2021@gtu.edu.tr</a></div></section>
     </main>
     <footer className="footer wrap"><span>© {new Date().getFullYear()} Ali Orhan</span><span>BUILT WITH CURIOSITY & CODE.</span><a href="#home">BACK TO TOP ↑</a></footer>
   </div>;
