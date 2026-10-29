@@ -3,6 +3,7 @@
 import { ArrowUpRight, ArrowRight, Github, Linkedin, Mail, Database, ChartNoAxesCombined, BrainCircuit, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import Brand from './components/Brand';
+import SignalArtwork from './components/SignalArtwork';
 import InsightCards from './components/InsightCards';
 import { projects as projectContent } from '../content/data';
 
@@ -33,7 +34,7 @@ export default function Home() {
           <div className="hero-actions"><a className="button-primary" href="#projects">Explore my work <ArrowUpRight size={17}/></a><a className="button-secondary" href="#writing">Read my insights <ArrowRight size={17}/></a></div>
           <div className="hero-footnote"><span>BASED IN TÜRKİYE</span><span>·</span><span>OPEN TO IDEAS & COLLABORATION</span></div>
         </div>
-        <div className="hero-art" aria-hidden="true"><div className="art-grid"/><div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="orbit orbit-three"/><div className="art-center">AO<span> / 01</span></div><div className="art-label label-top">SYSTEM / 001</div><div className="art-label label-bottom">OBSERVE / MODEL / CREATE</div></div>
+        <SignalArtwork/>
       </section>
 
       <section className="section about-section" id="about"><div className="wrap about-grid"><div><div className="section-kicker">01 / ABOUT ME</div><h2>Curious by nature.<br/><span>Analytical by design.</span></h2></div><div className="about-copy"><p>I’m an Industrial Engineering student at Gebze Technical University, passionate about using data to understand complex systems and solve real problems.</p><p>My interests span machine learning, business analytics, banking & CRM, optimization, and cloud technologies. I believe the best solutions combine technical depth with clear business thinking.</p><div className="skill-list"><span><Database size={15}/> Data Analytics</span><span><BrainCircuit size={15}/> Machine Learning</span><span><ChartNoAxesCombined size={15}/> Optimization</span></div></div></div></section>
