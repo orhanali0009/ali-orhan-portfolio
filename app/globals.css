@@ -56,3 +56,5 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 .signal-signature{flex:0 0 100px;max-width:100px}
 @media(max-width:900px){.signal-art{height:auto;aspect-ratio:560/610}.signal-canvas{object-fit:contain}}
 @media(max-width:640px){.signal-art{height:auto;aspect-ratio:auto;grid-template-rows:auto auto auto}.signal-caption{padding:20px 20px 0}.signal-canvas{height:auto;aspect-ratio:560/520}.signal-footer{padding:0 20px 22px;gap:12px}.signal-footer>span:first-child{font-size:18px}.signal-signature{flex-basis:85px;max-width:85px}}
+
+.about-heading-em{font-family:Georgia,serif;font-style:italic;font-weight:400;color:var(--accent)}
