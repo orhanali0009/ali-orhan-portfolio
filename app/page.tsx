@@ -2,6 +2,7 @@
 
 import { ArrowUpRight, ArrowRight, Github, Linkedin, Mail, Database, ChartNoAxesCombined, BrainCircuit, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import Brand from './components/Brand';
 import InsightCards from './components/InsightCards';
 import { projects as projectContent } from '../content/data';
 
@@ -15,7 +16,7 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return <div className="site-shell">
     <header className="header wrap">
-      <a className="brand" href="#home" aria-label="Ali Orhan home">AO<span className="brand-dot">.</span></a>
+      <Brand href="#home"/>
       <nav className={menuOpen ? 'nav open' : 'nav'} aria-label="Main navigation">
         {[['About','#about'], ['Projects','#projects'], ['Insights','#writing'], ['Contact','#contact']].map(([name,href]) => <a key={name} href={href} onClick={() => setMenuOpen(false)}>{name}</a>)}
       </nav>
