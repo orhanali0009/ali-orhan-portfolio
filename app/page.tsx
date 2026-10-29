@@ -28,7 +28,7 @@ export default function Home() {
       <section className="hero wrap" id="home">
         <div className="hero-content">
           <div className="eyebrow"><span className="pulse"/> INDEPENDENT THINKING / DATA-DRIVEN DESIGN</div>
-          <h1>Ali Orhan<span className="hero-period">.</span><br/><span className="hero-subline">Intelligence in</span><br/><em>every detail.</em></h1>
+          <h1>Making sense<br/><em>of what’s next.</em></h1>
           <p className="hero-description">Industrial Engineering background. Data Science mindset. I explore the intersection of data, engineering and business — building thoughtful solutions and sharing the ideas behind them.</p>
           <div className="hero-actions"><a className="button-primary" href="#projects">Explore my work <ArrowUpRight size={17}/></a><a className="button-secondary" href="#writing">Read my insights <ArrowRight size={17}/></a></div>
           <div className="hero-footnote"><span>BASED IN TÜRKİYE</span><span>·</span><span>OPEN TO IDEAS & COLLABORATION</span></div>
